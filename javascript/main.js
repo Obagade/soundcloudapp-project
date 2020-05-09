@@ -1,6 +1,4 @@
 
-
-
 var UI = {};
 
 
@@ -27,7 +25,6 @@ UI.handleSubmitClick = function() {
 // // set up the search
 UI.handleEnterPress();
 UI.handleSubmitClick();
-
 
 
 
@@ -66,8 +63,6 @@ SoundCloudAPI.getTrack = function(inputValue) {
 
 	});
 }
-
-
 
 
 
@@ -139,10 +134,6 @@ SoundCloudAPI.renderTrack = function( tracks, searchResult ) {
 
 
 
-
-
-
-
 SoundCloudAPI.getEmbed = function( trackPermalink ) {
 	
 	
@@ -191,36 +182,3 @@ SoundCloudAPI.getWidget = function( embedElement ) {
 
   var sideBar = document.querySelector(".col-left");
   sideBar.innerHTML = localStorage.getItem("key");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
